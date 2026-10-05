@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(31, 31, 31);
+    color: azure;
+}
+
+.bottom-nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    
+
+}
+
+.nav-item img {
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+    filter: invert(1); 
+    
+   
+}
